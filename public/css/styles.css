@@ -7,9 +7,10 @@ body {
   min-height: 100vh;
   padding-bottom: 100px;
   position: relative;
+  background-color: #2A313C;
 }
 header{
-  background-color: #FFF;
+  background-color: #2A313C;
   border-bottom: 1px solid #CCC;
 }
 .row{
@@ -48,18 +49,18 @@ header{
 }
 /*navbar*/
 #navbar img {
-  width: 40px;
+  width: 60px;
 }
 
 #navbar {
   justify-content: space-between;
-  background-color: #FFF;
+  background-color: #2A313C;
   padding: 5px 0;
 }
 
 #navbar a {
   font-size: 14px;
-  color: #757575;
+  color: #FAEBD7;
 }
 
 #navbar a:hover {
@@ -77,7 +78,7 @@ header{
 }
 
 #search-container h1{
-  color: #FFF;
+  color: #2A313C;
   margin-bottom: 30px;
   font-weight: 900;
 }
@@ -87,16 +88,22 @@ header{
   margin: 0 auto;
 }
 
+#search-container form input{
+  background-color: #FFFFFF80;
+}
+
 /*Events list*/
 #events-container {
   padding: 50px;
+  color: #fff;
+  background-color: #2A313C;
 }
 
 #events-container h2{
   margin-bottom:10px;
 }
 #events-container .subtitle {
-  color: #757575;
+  color: #CCC;
   margin-bottom:30px;
 }
 
@@ -109,6 +116,7 @@ header{
   max-width: 25%;
   border-radius: 10px;
   padding: 0;
+  background-color: #FAEBD7;
   margin: .5%;
 }
 
@@ -120,7 +128,7 @@ header{
 
 .card .card-date {
   font-size:12px;
-  color: #CCC;
+  color: #2A313C;
 }
 
 .card .card-title{
@@ -138,10 +146,12 @@ header{
 /*Event create page */
 #event-create-container {
   padding: 30px;
+  color: #F5F5F5;
 }
 
 #event-create-container label{
-  font-weight:bold; 
+  font-weight:bold;
+  color: #F0F8FF; 
 }
 
 #event-create-container input,
@@ -161,18 +171,25 @@ header{
 #info-container h1{
   font-size: 36px;
   font-weight: 900;
+  color: #FFF;
 }
 
 #info-container p {
   margin:0;
   font-size: 14px;
-  display: flex
+  display: flex;
+  color: #FFF;
 }
 
 #info-container h3,
 #description-container h3{
   font-size: 20px;
   font-weight:bold;
+  color: #FFF;
+}
+
+#description-container p{
+  color: #FFF;
 }
 
 #info-container ion-icon {
@@ -188,6 +205,7 @@ header{
 #items-list {
   list-style: none;
   padding-left: 0;
+  color: #FFF;
 }
 
 #items-list li {
@@ -197,11 +215,19 @@ header{
 /*Dashboard*/
 .dashboard-title-container {
   margin-bottm: 30px;
-  margin-top:30px
+  margin-top:30px;
+  color: #FFF;
 }
 
 .dashboard-events-container th{
   width: 25%;
+  background-color: #2A313C;
+  color: #FFF;
+}
+
+.dashboard-events-container td{
+  background-color: #2A313C;
+  color: #FFF;
 }
 
 .dashboard-events-container form{
